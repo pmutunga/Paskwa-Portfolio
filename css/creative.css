@@ -46,6 +46,12 @@ h6 {
 .bg-primary {
   background-color: #F05F40 !important;
 }
+.text-dark {
+  color:black;
+}
+.light-backg {
+  background-color: rgba(255, 255, 255, 0.4);
+}
 
 .bg-dark {
   background-color: #212529 !important;
@@ -316,4 +322,58 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 62px;
+  height: 62px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* Set a specific color for each brand */
+
+
+.fa-envelope {
+  background: #212529;
+  color: white;
+}
+
+/* LinkedIn */
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Github */
+
+.fa-github {
+    background: #c9510c;
+    color: white;
+    
+}
+
+.work h2 {
+  border-bottom: 0;
+  background: rgba(0,128,128, 0.8);
+  color: #ffffff;
+  text-align: center;
+  clear: both;
+  position: relative;
+  bottom: 70px;
+  padding: 15px;
+  width: 100%;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.workimage {
+  width: 650px;
+  height: 350px;
 }
